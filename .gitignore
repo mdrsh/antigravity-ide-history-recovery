@@ -1,0 +1,17 @@
+# Backups
+*.backup*
+*.bak
+
+# Markdown exports
+exports/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Local SQLite databases
+*.db
+*.sqlite
+
+# Archives / Release artifacts
+*.zip
