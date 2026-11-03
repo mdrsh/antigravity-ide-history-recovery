@@ -125,7 +125,7 @@ def is_ide_running():
                     return True
         else:
             # macOS / Linux
-            output = subprocess.check_output(['pgrep', '-f', '-i', 'antigravity'], text=True)
+            output = subprocess.check_output(['pgrep', '-x', '-i', 'antigravity'], text=True)
             if output.strip():
                 return True
     except Exception:
